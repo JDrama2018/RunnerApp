@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tvOrderNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp"
+        tools:text="#443353" />
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tvOrderNo"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tvOrderNo"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:text="Daniel L." />
+
+    <TextView
+        android:id="@+id/tvScreenNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOrderNo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="12:33" />
+
+    <TextView
+        android:id="@+id/tvTimeUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvScreenNo"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tvScreenNo"
+        android:text="mins"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp">
+
+        <ImageView android:id="@+id/iv1"
+            style="@style/MenuItem"
+            android:src="@drawable/pizza" />
+
+        <ImageView android:id="@+id/iv2"
+            style="@style/MenuItem"
+            android:src="@drawable/burger" />
+
+        <ImageView android:id="@+id/iv3"
+            style="@style/MenuItem"
+            android:src="@drawable/hotdog" />
+
+        <ImageView android:id="@+id/iv4"
+            style="@style/MenuItem"
+            android:src="@drawable/cold_drinks" />
+
+        <ImageView android:id="@+id/iv5"
+            style="@style/MenuItem"
+            android:src="@drawable/fries" />
+
+        <TextView android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="3dp"
+            android:gravity="bottom"
+            android:text="..."
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
