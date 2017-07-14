@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Runner' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Runner
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'AFDateHelper'
+  pod 'UIColor_Hex_Swift'
+  pod 'ReachabilitySwift', '~> 3'
+    
+  # Rx Libs
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RealmSwift', '2.0.2'
+  pod 'RxDataSources', '~> 1.0'
+    
+  # Services
+  pod 'AlamofireImage'
+  pod 'ObjectMapper'
+  # Indicator
+  pod 'NVActivityIndicatorView'
+
+end

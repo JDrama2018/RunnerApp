@@ -1,0 +1,57 @@
+PODS:
+  - AFDateHelper (4.2.2)
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - NVActivityIndicatorView (3.6.1)
+  - ObjectMapper (2.2.7)
+  - ReachabilitySwift (3)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.5.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - AlamofireImage
+  - Crashlytics
+  - Fabric
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - ReachabilitySwift (~> 3)
+  - RealmSwift (= 2.0.2)
+  - RxCocoa
+  - RxDataSources (~> 1.0)
+  - RxSwift
+  - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  AFDateHelper: 0f9588a442b4d7ef862568ae5d40ab883672efb5
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: 2ab3b87100e384e552c5bb68c0b4caf6f6c8b6ac
+
+COCOAPODS: 1.2.1
